@@ -47,7 +47,7 @@ class Liberty_Model():
         elif self.model=='LR':
             model, class_report = self.balanced_classifier_LR(X_train, X_test, y_train, y_test)
 
-
+        # Plot ROC and Confusion Matrix
         settings = {'corr': None, 'imb': None, 'pca': None, 'model': model, 'X_test': X_test, 'y_test': y_test,'report':class_report}
         pl = All_plots(settings)
         pl.plot_model()
