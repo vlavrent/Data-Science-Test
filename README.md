@@ -12,3 +12,6 @@ Examples
 -	python main.py -p 'pod_recommender_probation_task.csv' -m 'RF'
 -	python main.py --path 'pod_recommender_probation_task.csv' --model 'LR'
 -	python main.py --path 'pod_recommender_probation_task.csv' --model 'RF'
+
+Presentation
+https://docs.google.com/presentation/d/1eawVuWBVYsoSLFjbntOmlH7-nV8XCtA8FWa5R62IkSo/edit?usp=sharing
